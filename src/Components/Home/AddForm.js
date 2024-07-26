@@ -68,7 +68,7 @@ function AddForm({ open, handleClose, handleSubmit, pet }) {
               label="Type"
               variant="outlined"
               value={type}
-              placeholder='animal,bird,fish..'
+              placeholder='animal,bird,fish....'
               onChange={(e) => setType(e.target.value)}
             />
           </FormControl>
