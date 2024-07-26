@@ -39,10 +39,10 @@ function PetCard({ pet, onEdit, onDelete }) {
         </DialogContent>
         <DialogActions>
           <Button onClick={handleConfirmClose} color="primary">
-            No
+            No, cancel
           </Button>
           <Button onClick={handleDelete} color="secondary">
-            Yes
+            Yes, delete
           </Button>
         </DialogActions>
       </Dialog>
